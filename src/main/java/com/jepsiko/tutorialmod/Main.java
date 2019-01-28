@@ -1,5 +1,6 @@
 package com.jepsiko.tutorialmod;
 
+import com.jepsiko.tutorialmod.init.ModRecipes;
 import com.jepsiko.tutorialmod.proxy.CommonProxy;
 import com.jepsiko.tutorialmod.util.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -26,7 +27,7 @@ public class Main {
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event)
     {
-
+        ModRecipes.init();
     }
 
     @Mod.EventHandler
