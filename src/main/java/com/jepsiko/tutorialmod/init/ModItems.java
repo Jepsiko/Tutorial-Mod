@@ -2,11 +2,14 @@ package com.jepsiko.tutorialmod.init;
 
 import com.jepsiko.tutorialmod.items.ItemBase;
 import com.jepsiko.tutorialmod.items.armor.ArmorBase;
+import com.jepsiko.tutorialmod.items.food.FoodEffectBase;
 import com.jepsiko.tutorialmod.items.tools.*;
 import com.jepsiko.tutorialmod.util.Reference;
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.*;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.ArrayList;
@@ -37,4 +40,9 @@ public class ModItems {
     public static final Item RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
     public static final Item RUBY_LEGGINGS = new ArmorBase("ruby_leggings", ARMOR_MATERIAL_RUBY, 2, EntityEquipmentSlot.LEGS);
     public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
+
+    //Food
+    //public static final Item EVIL_APPLE = new FoodBase("evil_apple", 4, 2.4f, false);
+    public static final Item EVIL_APPLE = new FoodEffectBase("evil_apple", 4, 2.4f, false,
+            new PotionEffect(MobEffects.POISON, 60 * 20, 1, false, true));
 }
