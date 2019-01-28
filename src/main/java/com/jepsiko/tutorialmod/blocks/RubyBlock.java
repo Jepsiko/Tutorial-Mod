@@ -9,10 +9,10 @@ public class RubyBlock extends BlockBase {
         super(name, material);
 
         setSoundType(SoundType.METAL); //SoundType is the sound when we walk over the block
-        setHardness(3.0f);
+        setHardness(5.0f);
         setResistance(30.0f);
         setHarvestLevel("pickaxe", 2);
-        setLightLevel(0.0f);
+        //setLightLevel(0.0f);
         //setLightOpacity(1);
         //setBlockUnbreakable();
     }
