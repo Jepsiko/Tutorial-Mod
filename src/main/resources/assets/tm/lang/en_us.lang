@@ -2,6 +2,9 @@
 item.ruby.name=Ruby
 item.obsidian_ingot.name=Obsidian Ingot
 
+//Blocks
+tile.ruby_block.name=Block of Ruby
+
 //Tools
 item.ruby_sword.name=Ruby Sword
 item.ruby_shovel.name=Ruby Shovel
@@ -9,5 +12,8 @@ item.ruby_hoe.name=Ruby Hoe
 item.ruby_axe.name=Ruby Axe
 item.ruby_pickaxe.name=Ruby Pickaxe
 
-//Blocks
-tile.ruby_block.name=Block of Ruby
+//Armor
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
