@@ -2,5 +2,12 @@
 item.ruby.name=Ruby
 item.obsidian_ingot.name=Obsidian Ingot
 
+//Tools
+item.ruby_sword.name=Ruby Sword
+item.ruby_shovel.name=Ruby Shovel
+item.ruby_hoe.name=Ruby Hoe
+item.ruby_axe.name=Ruby Axe
+item.ruby_pickaxe.name=Ruby Pickaxe
+
 //Blocks
 tile.ruby_block.name=Block of Ruby
