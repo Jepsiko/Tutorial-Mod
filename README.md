@@ -2,6 +2,9 @@
 
 ## Creating a basic custom item
 
+Everything done in this chapter comes from [Loremaster's Guide](https://www.youtube.com/watch?v=rQLhheYcnrY
+"Minecraft 1.12.2: Modding Tutorial - Custom Items (#3)")
+
 To create a custom item called custom_item, you first need to add the item in the file
 _ModItems.java_ located in the `com.username.modname.init` package with the following line.
 
